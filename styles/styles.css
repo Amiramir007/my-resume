@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'Vaziri'; /* Name your font family */
+    src: url('./../fonts/Vazirmatn-Thin.ttf'); /* Locate the .ttf file within your directory*/
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+  body {
+    font-family: 'Vaziri', sans-serif; /* Use the font family */
+    letter-spacing: 1px;
+    /* display: flex;
+    align-items: center;
+    /* justify-content: center; */
+  }
+
+  .resume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.container {
+    width: 1000px;
+    /* height: 100%; */
+    /* height: 500px; */
+    /* margin: 0 auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
+}
+
+.resume_wrapper {
+    display: flex;
+} 
+.resume_left {
+    flex: 2;
+    background-color: #093817;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+   
+} 
+.resume_left-header {
+    text-align: center;
+} 
+.resume_left-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin-top: 20px;
+    object-fit: cover;
+} 
+.resume_left-title {
+
+} 
+.resume_left-desc {
+    font-weight: 600;
+}
+
+.contact {
+    margin-top: 30px;
+}
+
+.contact_title {
+    text-align: center;
+}
+
+.contact_list {
+
+}
+
+.contact_list-item {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 7px 10px;
+    list-style: none;
+}
+
+.contact_list-span {
+    font-weight: 600;
+    
+}
+
+.resume_left button {
+    display: block;
+    width: 80px;
+    height: 50px;
+    margin: 5px auto;
+    border-radius: 10px;
+}
+
+
+
+.resume_right {
+    flex: 3;
+    background-color: #fff;
+}
+
+.resume_about {
+    margin: 20px 10px;
+    font-weight: bold;
+}
+
+.resume_intro-head {
+
+    background-color: #093817;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    /* margin-top: 10px; */
+}
+
+.resume_intro-description {
+    margin: 10px 0 0 10px;
+}
+
+
+.resume_skills {
+    margin: 20px;
+}
+
+.resume_skills span {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.skills_title {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.progress {
+    background-color: lightgray;
+    width: 90%;
+    margin-bottom: 10px;
+}
+.progress_amount {
+    background-color: #093817;
+    height:16px;
+    width:25%
+} 
+
+.progress_amount.js {
+    width:90%
+}
+.progress_amount.html-css {
+    width:80%
+}
+.progress_amount.react {
+    width:70%
+}
+.progress_amount.next {
+    width:50%
+}
+.progress_amount.bootstrap {
+    width:60%
+}
+
+.second-page {
+    flex: 3;
+    background-color: #fff;
+    margin: 20px;
+}
+
+.second-page h2 {
+    margin: 20px 0;
+}
+
+.second-page span {
+    font-weight: bold;
+    display: block;
+    margin: 20px 0 20px 370px;
+}
+
+.second-page p {
+    font-weight: bold;
+}
+
+
+.hidden {
+    visibility: hidden;
+    display: none;
+}
+
