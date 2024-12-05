@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Vaziri'; /* Name your font family */
-    src: url('./../fonts/Vazirmatn-Thin.ttf'); /* Locate the .ttf file within your directory*/
+    font-family: 'Vaziri'; 
+    src: url('./../fonts/Vazirmatn-Thin.ttf'); 
   }
 
 * {
@@ -10,24 +10,20 @@
 }
   
   body {
-    font-family: 'Vaziri', sans-serif; /* Use the font family */
+    font-family: 'Vaziri', sans-serif; 
     letter-spacing: 1px;
-    /* display: flex;
-    align-items: center;
-    /* justify-content: center; */
   }
 
   .resume {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
   }
 
 .container {
     width: 1000px;
-    /* height: 100%; */
-    /* height: 500px; */
-    /* margin: 0 auto; */
+    /* height: 400px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,14 +33,15 @@
 .resume_wrapper {
     display: flex;
 } 
+
+/* start Left section of resume  */
 .resume_left {
     flex: 2;
     background-color: #093817;
     color: #fff;
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
+   position: sticky;
    
 } 
 .resume_left-header {
@@ -85,7 +82,6 @@
 
 .contact_list-span {
     font-weight: 600;
-    
 }
 
 .resume_left button {
@@ -96,7 +92,9 @@
     border-radius: 10px;
 }
 
+/* End Left Section of Resume */
 
+/* Start Right Section of Resume  */
 
 .resume_right {
     flex: 3;
@@ -114,7 +112,6 @@
     color: #fff;
     padding: 5px;
     border-radius: 5px;
-    /* margin-top: 10px; */
 }
 
 .resume_intro-description {
@@ -164,9 +161,22 @@
     width:60%
 }
 
+.progress_amount.english {
+    width: 80%;
+}
+
+
+
+/* End Right Section of Resume */
+
+/* Start Second Page of Resume */
+
 .second-page {
     flex: 3;
     background-color: #fff;
+}
+
+.second-page-wrapper {
     margin: 20px;
 }
 
@@ -184,6 +194,7 @@
     font-weight: bold;
 }
 
+/* End Second Page of Resume */
 
 .hidden {
     visibility: hidden;
