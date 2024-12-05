@@ -1,3 +1,6 @@
 # My Resume
 
-<p>this is a summery of my skills</p>
+<p>In first page i use flex box to seprate resume to two section.in the left witt ul li 
+    i put my connections and in the right with proggress bar i explain that how much is my ability in every single skills.
+    Finaly by using javascript i put a button to can toggle between first page and second page
+    and wrote supplementary information about myself in second page.</p>
