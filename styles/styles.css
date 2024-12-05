@@ -1,62 +1,63 @@
 @font-face {
-    font-family: 'Vaziri'; 
-    src: url('./../fonts/Vazirmatn-Thin.ttf'); 
-  }
+    font-family: 'Vaziri';
+    src: url('./../fonts/Vazirmatn-Thin.ttf');
+}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-  
-  body {
-    font-family: 'Vaziri', sans-serif; 
-    letter-spacing: 1px;
-  }
 
-  .resume {
+body {
+    font-family: 'Vaziri', sans-serif;
+    letter-spacing: 1px;
+}
+
+.resume {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-  }
+}
 
 .container {
     width: 1000px;
-    /* height: 400px; */
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 .resume_wrapper {
     display: flex;
-} 
+}
 
-/* start Left section of resume  */
+/* start Left Section of Resume  */
+
 .resume_left {
     flex: 2;
     background-color: #093817;
     color: #fff;
     display: flex;
     flex-direction: column;
-   position: sticky;
-   
-} 
+
+}
+
 .resume_left-header {
     text-align: center;
-} 
+}
+
 .resume_left-img {
     width: 120px;
     height: 120px;
     border-radius: 100%;
     margin-top: 20px;
     object-fit: cover;
-} 
-.resume_left-title {
+}
 
-} 
+.resume_left-title {}
+
 .resume_left-desc {
     font-weight: 600;
 }
@@ -69,9 +70,7 @@
     text-align: center;
 }
 
-.contact_list {
-
-}
+.contact_list {}
 
 .contact_list-item {
     font-size: 20px;
@@ -102,7 +101,7 @@
 }
 
 .resume_about {
-    margin: 20px 10px;
+    margin: 15px 10px;
     font-weight: bold;
 }
 
@@ -125,8 +124,13 @@
 
 .resume_skills span {
     font-weight: bold;
-    display: block;
+    display: inline-block;
     margin-bottom: 5px;
+    background-color: #093817;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 4px;
 }
 
 .skills_title {
@@ -137,28 +141,33 @@
 .progress {
     background-color: lightgray;
     width: 90%;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
+
 .progress_amount {
     background-color: #093817;
-    height:16px;
-    width:25%
-} 
+    height: 14px;
+    width: 25%
+}
 
 .progress_amount.js {
-    width:90%
+    width: 90%
 }
+
 .progress_amount.html-css {
-    width:80%
+    width: 80%
 }
+
 .progress_amount.react {
-    width:70%
+    width: 70%
 }
+
 .progress_amount.next {
-    width:50%
+    width: 50%
 }
+
 .progress_amount.bootstrap {
-    width:60%
+    width: 60%
 }
 
 .progress_amount.english {
@@ -188,6 +197,17 @@
     font-weight: bold;
     display: block;
     margin: 20px 0 20px 370px;
+    position: relative;
+}
+
+.second-page span::after {
+    content: "";
+    background-color: #093817;
+    width: 150px;
+    height: 3px;
+    position: absolute;
+    top: 30px;
+    left: -2px;
 }
 
 .second-page p {
@@ -200,4 +220,3 @@
     visibility: hidden;
     display: none;
 }
-
